@@ -6,3 +6,16 @@
  ****/
 
 
+$grades = [85, 92, 78, 88, 95];
+function sort_grades($grades) {
+    $sorting_arr = [];
+    rsort($grades);
+
+    foreach ($grades as $value) {
+        $sorting_arr[] = $value;
+    }
+    return $sorting_arr;
+}
+
+$result = sort_grades($grades);
+print_r($result);
