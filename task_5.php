@@ -11,7 +11,7 @@
     $sets[] = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
     $sets[] = 'abcdefghjkmnpqrstuvwxyz';
     $sets[] = '23456789';
-    $sets[]  = '~!@#$%^&*(){}[],./?';
+    $sets[]  = '!@#$%^&*()_+';
 
     $password = '';
     
