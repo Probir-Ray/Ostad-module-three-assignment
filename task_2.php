@@ -9,6 +9,7 @@
 $numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 function arr_traverse($arr) {
     $new_arr = [];
+    
     for($el = 0; $el < count($arr); $el++) {
         if($arr[$el] % 2 == 0) {
             continue;
